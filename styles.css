@@ -1,0 +1,203 @@
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+font-family: "quicksand";
+}
+
+.nav-Container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-image-school-title{
+    display: flex;
+    align-items: center;
+}
+
+.list-items{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 20px;    
+    
+}
+
+.home{
+    color: orange;
+    text-decoration: none;
+}
+.about{
+    color: skyblue;
+    text-decoration: none;
+}
+
+.facilities{
+    color: #05D4DF;
+    text-decoration: none;
+}
+
+.admission{
+    color: #5D58EF;
+    text-decoration: none;
+}
+
+.nav-button{
+    padding: 10px 60.5px;
+    border-radius: 12px;
+    background-color: orange;
+    border: none;
+    border-style: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.banner-heading{
+    width: 640px;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.empowring{
+    color: orange;
+}
+
+.blue{
+    color: skyblue;
+}
+
+.banner-para{
+    width: 640px;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.banner-button{
+    padding: 10px 60.5px;
+    border-radius: 12px;
+    background-color: black;
+    border: none;
+    border-style: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-top: 24px;
+}
+
+
+
+.card-1{
+    background-color: #DEF5FF;
+    width: 367px;
+    height: 476px;
+    border-radius: 18.86px;
+    align-content: center;
+    text-align: center;
+    background-image: linear-gradient(skyblue, white);
+}
+
+
+.card-2{
+    background-color: bisque;
+    background-image: linear-gradient(bisque, white);
+    width: 367px;
+    height: 476px;
+    border-radius: 18.86px;
+    align-content: center;
+    text-align: center;
+}
+
+.card-3{
+    background-color: aquamarine;
+    background-image: linear-gradient(aquamarine, white);
+    width: 367px;
+    height: 476px;
+    border-radius: 18.86px;
+    align-content: center;
+    text-align: center;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: orangered;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+  
+}
+
+.circle-all{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.sec-1-title{
+    font-weight: bold;
+    font-size: 2.88rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.cards{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+ 
+}
+
+.read-more-1{
+   text-decoration: none;
+   color: orange;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.read-more-2{
+    text-decoration: none;
+    color: rgb(17, 218, 44);
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+ .read-more-3{
+    text-decoration: none;
+    color: rgb(157, 29, 189);
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+.card-para{
+    margin-bottom: 38px;
+    margin-top: 33px;
+}
+
+.section-1{
+    margin-bottom: 84px;
+    background-image: url("assets/bg.png");
+}
+.text-uderline-none{
+    text-decoration: none;
+}
+
+.text-color-none{
+    color: black;
+}
+
