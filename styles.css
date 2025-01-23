@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0px;
+}
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -13,6 +16,8 @@ font-family: "quicksand";
 .nav-Container{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .nav-image-school-title{
@@ -25,7 +30,7 @@ font-family: "quicksand";
     list-style: none;
     gap: 15px;
     font-weight: bold;
-    font-size: 20px;    
+    font-size: 20px;  
     
 }
 
@@ -67,9 +72,9 @@ font-family: "quicksand";
 }
 
 .banner-heading{
-    width: 640px;
     font-weight: bold;
     font-size: 3.5rem;
+    width: 640px;
 }
 
 .empowring{
@@ -80,10 +85,14 @@ font-family: "quicksand";
     color: skyblue;
 }
 
-.banner-para{
+.width{
     width: 640px;
+}
+
+.banner-para{
     font-weight: 400;
     font-size: 1.25rem;
+    width: 640px;
 }
 .banner-button{
     padding: 10px 60.5px;
@@ -193,6 +202,21 @@ font-family: "quicksand";
     margin-bottom: 84px;
     background-image: url("assets/bg.png");
 }
+
+.section-2{
+    background-image: linear-gradient(white, rgb(228, 68, 9)), url('assets/bg.png');
+}
+.sec-2-card-1{
+    background-color: rgb(255, 255, 255);
+    width: 540px;
+    height: ;
+    border-radius: 16px;
+}
+
+.border-img{
+    border-radius: 16px;
+}
+
 .text-uderline-none{
     text-decoration: none;
 }
@@ -201,3 +225,38 @@ font-family: "quicksand";
     color: black;
 }
 
+@media only screen  
+and (max-width : 480px){
+    .nav-Container{
+        justify-content: start;
+        
+    }
+
+    .nav-title{
+        display: none;
+    }
+    .list-items{
+        display: none;
+    }
+
+    .nav-button{
+        display: none;
+    }
+    
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .Nav-img{
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .cards{
+        flex-direction: column;
+        width: 100%;
+    }
+  
+}
